@@ -45,9 +45,9 @@ wait "$cat_pid"
 # Upload results
 #
 mark-section "uploading results"
-mkdir -p ~/out/report_html/ ~/out/stats_txt/
-mv results/*/fastqc_report.html ~/out/report_html/"$reads_prefix".stats-fastqc.html
-mv results/*/fastqc_data.txt ~/out/stats_txt/"$reads_prefix".stats-fastqc.txt
+mkdir -p ~/out/report_html/QC/ ~/out/stats_txt/QC/
+mv results/*/fastqc_report.html ~/out/report_html/QC/"$reads_prefix".stats-fastqc.html
+mv results/*/fastqc_data.txt ~/out/stats_txt/QC/"$reads_prefix".stats-fastqc.txt
 
 dx-upload-all-outputs
 mark-success
