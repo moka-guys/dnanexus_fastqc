@@ -1,4 +1,4 @@
-# FastQC Reads Quality Control
+# FastQC Reads Quality Control Github release v1.1.1
 
 ## What does this app do?
 
