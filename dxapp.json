@@ -6,6 +6,9 @@
     "Read QC",
     "Statistics"
   ],
+"properties": {
+    "github release": "v1.1"
+  },
   "dxapi": "1.0.0",
   "inputSpec": [
     {
