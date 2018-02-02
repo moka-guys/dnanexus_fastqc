@@ -1,13 +1,13 @@
 {
   "name": "fastqc",
   "title": "FastQC Reads Quality Control",
-  "summary": "v1.1.1 - Generates a QC report on reads data",
+  "summary": "v1.2 - Generates a QC report on reads data",
   "tags": [
     "Read QC",
     "Statistics"
   ],
-"properties": {
-    "github release": "v1.1.1"
+  "properties": {
+    "github release": "v1.2"
   },
   "dxapi": "1.0.0",
   "inputSpec": [
@@ -103,13 +103,22 @@
         "name": "openjdk-7-jre-headless"
       }
     ],
+    "systemRequirementsByRegion": {
+      "aws:us-east-1": {
+        "main": {
+          "instanceType": "mem1_ssd1_x4"
+        }
+      }
+    },
     "systemRequirements": {
       "main": {
         "instanceType": "mem1_ssd1_x4"
       }
     },
     "file": "src/code.sh",
-    "interpreter": "bash"
+    "release": "14.04",
+    "interpreter": "bash",
+    "distribution": "Ubuntu"
   },
   "details": {
     "upstreamUrl": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",

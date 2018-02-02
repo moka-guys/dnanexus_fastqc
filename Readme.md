@@ -1,5 +1,4 @@
-# FastQC Reads Quality Control Github release v1.1.1
-
+# FastQC Reads Quality Control Github release v1.2
 ## What does this app do?
 
 This app generates a QC report on reads data.
