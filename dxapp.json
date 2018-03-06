@@ -1,13 +1,13 @@
 {
-  "name": "fastqc",
-  "title": "FastQC Reads Quality Control",
-  "summary": "v1.2 - Generates a QC report on reads data",
+  "name": "fastqc_v1.3",
+  "title": "FastQC Reads Quality Control v1.3",
+  "summary": "v1.3 - Generates a QC report on reads data",
   "tags": [
     "Read QC",
     "Statistics"
   ],
   "properties": {
-    "github release": "v1.2"
+    "github release": "v1.3"
   },
   "dxapi": "1.0.0",
   "inputSpec": [
