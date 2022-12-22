@@ -9,7 +9,7 @@ mkdir -p ~/out/report_html/QC/ ~/out/stats_txt/QC/
 mark-section "download inputs"
 dx-download-all-inputs --parallel
 		
-# The fastqc docker image 
+# The fastqc docker image from 001
 Docker_file_ID=project-ByfFPz00jy1fk6PjpZ95F27J:file-GKQkG5006xgkK6vgP4X1vY2P
 dx download ${Docker_file_ID}
 Docker_image_file=$(dx describe ${Docker_file_ID} --name)

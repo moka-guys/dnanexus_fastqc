@@ -1,7 +1,7 @@
 {
   "name": "fastqc_v1.4.0",
   "title": "FastQC Reads Quality Control v1.4.0",
-  "summary": "v1.4.0beta - Generates a QC report on reads data",
+  "summary": "v1.4.0 - Generates a QC report on reads data",
   "tags": [
     "Read QC",
     "Statistics"
