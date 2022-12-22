@@ -28,5 +28,5 @@ Results are output to `/QC`
 
 
 ## How does this app work?
-This app runs a dockerised version of fastqc, release 0.11.9.
+This app runs a dockerised version of fastqc, release [v0.11.9](https://github.com/moka-guys/fastqc/releases/tag/v0.11.9)
 
