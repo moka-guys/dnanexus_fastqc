@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-
+function main() {
 # The following line causes bash to exit at any point if there is any error
 # and to output each line as it is executed -- useful for debugging
 set -e -x -o pipefail
@@ -17,9 +17,7 @@ Docker_image_name=$(echo $Docker_image_file | sed s'/.tar//' | sed s'/.gz//')
 docker load < /home/dnanexus/"${Docker_image_file}"
 echo "Using fastqc docker image ${Docker_image_name}"
 
-#
 # Set up some options
-#
 mark-section "building FastQC arguments"
 opts="$extra_options --extract -k $kmer_size "
 if [ "$contaminants_txt" != "" ]; then
@@ -52,3 +50,4 @@ done
 mark-section "uploading results"
 dx-upload-all-outputs
 mark-success
+}

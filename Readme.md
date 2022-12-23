@@ -24,7 +24,7 @@ It also can take a number of files and settings that are used by fastqc includin
 
 ## What does this app output?
 This app outputs an HTML report and a machine-readable text file for each sample.
-Results are output to `/QC`
+Results are output to a subfolder `QC` 
 
 
 ## How does this app work?
