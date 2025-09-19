@@ -1,4 +1,4 @@
-# FastQC Reads Quality Control  v1.4.0
+# FastQC Reads Quality Control  v1.4.1
 ## What does this app do?
 This app generates a QC report on reads data.
 

@@ -10,7 +10,7 @@ mark-section "download inputs"
 dx-download-all-inputs --parallel
 		
 # The fastqc docker image from 001
-Docker_file_ID=project-ByfFPz00jy1fk6PjpZ95F27J:file-GKQkG5006xgkK6vgP4X1vY2P
+Docker_file_ID=project-J32193pK9yGfjP2GyZ94KZf4:file-J342zppK9yGyFjb25XpxF21V
 dx download ${Docker_file_ID}
 Docker_image_file=$(dx describe ${Docker_file_ID} --name)
 Docker_image_name=$(echo $Docker_image_file | sed s'/.tar//' | sed s'/.gz//')
